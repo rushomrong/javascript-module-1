@@ -9,7 +9,7 @@ var age = 10;
 var seniorCitizen = 60;
 
 if (age > 10) {
-  console.log("You got the free ticket");
+  +console.log("You got the free ticket");
 } else if (!isStudent) {
   console.log(
     "You got the 50% off on your ticket fare:",
